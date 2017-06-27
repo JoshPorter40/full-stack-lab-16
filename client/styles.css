@@ -1,0 +1,31 @@
+#chirp-field {
+    height: 2.8em;
+    width: 75em;
+    text-align: center;
+}
+
+#chirp-list {
+    text-align: center;
+    color: black;
+}
+
+#greeter {
+    text-align: center;
+    vertical-align: center;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#chirp-btn {
+    height: 3.4em;
+    width: 6em;
+}
+
+.chirp {
+    margin: 2px;
+    background-color: silver;
+    border: 1px solid black;
+}

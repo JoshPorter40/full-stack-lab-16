@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Chirper</title>
+    </head>
+    <body>
+        <div class="chirp-box">
+            <select id="select">
+                <option>Choose Your Name</option>
+                <option value="1">Josh</option>
+                <option value="2">Sandy</option>
+                <option value="3">Ariana</option>
+                <option value="4">Cory</option>
+                <option value="5">Morty</option>
+            </select>
+            <input type="text" placeholder="Write your chirp here!" id="chirp-field">
+            <button id="chirp-btn" disabled>Chirp!</button>
+        </div>
+        <div id="chirp-list">
+            <h2 id="list">Chirp List:</h2>
+        </div>
+        <script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
